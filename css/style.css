@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*margin: 0;*/
+  /*padding-left: 20px;*/
+}
+
+/*------------ Style ------------ */
+
+#output-target {
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+#page-header {
+  background-color: lightgray;
+  height: 50px;
+}
