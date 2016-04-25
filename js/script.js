@@ -64,5 +64,25 @@ outputTar.innerHTML = event.target.value; // event.target.value
 
 var guineaPig = document.getElementById('guinea-pig');
 
+document.getElementById("add-color")
+  .addEventListener("click", function() {
+  guineaPig.classList.toggle("blue");
+  });
+
+document.getElementById("make-large")
+  .addEventListener("click", function() {
+    guineaPig.classList.toggle("large");
+  });
+
+document.getElementById("add-border")
+  .addEventListener("click", function() {
+  guineaPig.classList.toggle("border");
+  });
+
+document.getElementById("add-rounding")
+  .addEventListener("click", function() {
+    guineaPig.classList.toggle("round")
+  });
+
 
 

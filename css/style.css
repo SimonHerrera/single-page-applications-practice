@@ -20,3 +20,21 @@ body {
   background-color: lightgray;
   height: 50px;
 }
+
+/*----------- Toggle Items --------*/
+
+.blue {
+  color: blue;
+}
+
+.large {
+  font-size: 2em;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.round {
+  border-radius: 10%;
+}
