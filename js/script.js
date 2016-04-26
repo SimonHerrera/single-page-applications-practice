@@ -85,4 +85,9 @@ document.getElementById("add-rounding")
   });
 
 
+//Steve trial for Event Listener
+var steverOutput = document.getElementById("output-target");
 
+document.getElementById("steve").addEventListener("click", function (event) {
+  steverOutput.innerHTML = `You clicked on ${event.target.innerHTML}`;
+});
